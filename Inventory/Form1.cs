@@ -103,7 +103,7 @@ namespace Inventory
 
         public class NumberFormatException : Exception 
         {
-            public NumberFormatException(string pname) : base(pname) 
+            public NumberFormatException(string qty) : base(qty) 
             {
             
             }
@@ -111,7 +111,7 @@ namespace Inventory
 
         public class StringFormatException : Exception 
         {
-            public StringFormatException(string qty) : base(qty) 
+            public StringFormatException(string pname) : base(pname) 
             {
             
             }
